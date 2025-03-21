@@ -10,6 +10,7 @@ and the following blog posts
 - https://devblogs.nvidia.com/thinking-parallel-part-iii-tree-construction-gpu/
 
 depending on [thrust](https://thrust.github.io/) and [glm](https://github.com/g-truc/glm).
+(DO NOT INSTALL GLM DIRECTLY FROM THE CURRENT WORKING BRANCH. Only install versions taged as stable releases or through vcpkg. When in doubt, use glm version 1.0.1#3.)
 
 ## Implementation
 This is partly rewritten/referenced from https://github.com/ToruNiina/lbvh to be much more optimized, simpler to use, and, importantly, bug free. It was written as a module of KittenEngine, a simulation framework I wrote for research. 
