@@ -385,7 +385,7 @@ namespace Kitten {
 		cudaMemset(d_counter, 0, sizeof(int));
 
 		// Query the LBVH
-		const int numQuery = numObjs;
+		const int numQuery = other->numObjs;
 		LBVHKernels::launchQueryKernel<false>(
 			d_res, d_counter, resSize,
 			thrust::raw_pointer_cast(impl->d_nodes.data()),
