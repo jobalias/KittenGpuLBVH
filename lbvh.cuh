@@ -5,6 +5,7 @@
 #include <device_launch_parameters.h>
 
 #include <memory>
+
 #include <KittenEngine/includes/modules/Common.h>
 #include <KittenEngine/includes/modules/Bound.h>
 
